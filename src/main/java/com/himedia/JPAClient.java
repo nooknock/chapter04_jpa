@@ -25,7 +25,7 @@ public class JPAClient {
 		//JPA가 실제 테이블에 등록/수정/삭제 작업을 처리하기 위해서는 해당 작업이 반드시 트랜잭션 안에서 수행되어야 한다.
 		//만약 트랜잭션을 시작하지 않았거나 등록/수정/삭제 작업 이후에 트랜잭션을 종료하지 않으면 요청한 작업이 실제 데이터베이스에 반영되지 않는다.
 
-		// Transaction 생성 zzz
+		// Transaction 생성 zzzz
 		EntityTransaction tx = em.getTransaction();
 		
 		try {
