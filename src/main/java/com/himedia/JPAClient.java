@@ -43,7 +43,7 @@ public class JPAClient {
 			//다만 검색작업은 트랜잭션과 관련이 없기 때문에 트랜잭션 관련 소스는 생략해도 됨
 			
 			//글 등록
-//			em.persist(board);
+//			em.persist(board); //영속한다.(비휘발성저장,insert)
 			
 			// Transaction commit
 //						tx.commit();
